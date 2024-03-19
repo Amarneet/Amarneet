@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIPHY PROJECT</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+
+    <nav class="rana rana-expand-lg rana-dark bg-dark" >
+        <div class="container">
+        <a class="RANA-brand" href="javascript:void(0)">UiMonk's GIPHY CLONE</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle=" col28lapse" data-target="#navb">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class=" col28lapse navbar- col28lapse" id="navb">
+          <ul class="navbar-nav mr-auto">
+           
+          
+          </ul>
+          <form class="form-inline my-2 my-lg-0" action="javascript:void(0)">
+            <input class="form-control mr-sm-2 inpSearch" type="text" placeholder="Search" >
+            <button class="btn btn-success my-2 my-sm-0 search" type="button">Search</button>
+          </form>
+        </div>
+    </div>
+      </nav>
+
+      <div class="main container">
+        <div class="loader loaded">
+            <img src="img/loader.gif" alt="">
+        </div>
+        <div class="row28">
+        <div class=" col28">
+                <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTRpcG8xbmluaGRqN3JjdHg5MTdmMzM5c2hucXZ4emJ3Zm94cTJidyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8qCR6tGCytz05aXVwr/giphy.gif"  >
+                <a href="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGE1YzluYzJjYm1wZGZwNzExNGk3Nng3NzJxZXFtZ2Z1bGw3OHUwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8A2jEyKYXS2IZVBo0d/giphy.gif" class="" download>Download  - <small> 1.3mb(Size)</small>   </a>
+                
+            </div>    
+        <div class=" col28">
+                <img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExM3ZvanA3czY3NWxrNml5eXh5NHJwdDVhYjc5OGNrMGd4eWd4d2VzcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/87lTZLwOZ3lclhNFze/giphy.gif"  >
+                <a href="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGE1YzluYzJjYm1wZGZwNzExNGk3Nng3NzJxZXFtZ2Z1bGw3OHUwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8A2jEyKYXS2IZVBo0d/giphy.gif" class="" download>Download  - <small> 1.3mb(Size)</small>   </a>
+                
+            </div>    
+        <div class=" col28">
+                <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbzhobDFwZ2tscGtmcHd4NWx2enMyejd6NW02cnJpMHBzMXg1a3k4NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aR69F5A9tz2kkVYUAz/giphy.gif"  >
+                <a href="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGE1YzluYzJjYm1wZGZwNzExNGk3Nng3NzJxZXFtZ2Z1bGw3OHUwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8A2jEyKYXS2IZVBo0d/giphy.gif" class="" download>Download  - <small> 1.3mb(Size)</small>   </a>
+                
+            </div>    
+        <div class=" col28">
+                <img src="https://media2.giphy.com/media/2dI7FZreQAp44/200.webp?cid=790b7611ewb5jn105s3ehz4adqtrnj4er4ltryu8x7bldq9b&ep=v1_gifs_search&rid=200.webp&ct=g"  >
+                <a href="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGE1YzluYzJjYm1wZGZwNzExNGk3Nng3NzJxZXFtZ2Z1bGw3OHUwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8A2jEyKYXS2IZVBo0d/giphy.gif" class="" download>Download  - <small> 1.3mb(Size)</small>   </a>
+                
+            </div>    
+        <div class=" col28">
+                <img src="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXdiNWpuMTA1czNlaHo0YWRxdHJuajRlcjRsdHJ5dTh4N2JsZHE5YiZlcD12MV9naWZzX3NlYXJjaCZjdD1n/cbWQm0HonZORq/200.webp"  >
+                <a href="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGE1YzluYzJjYm1wZGZwNzExNGk3Nng3NzJxZXFtZ2Z1bGw3OHUwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8A2jEyKYXS2IZVBo0d/giphy.gif" class="" download>Download  - <small> 1.3mb(Size)</small>   </a>
+                
+            </div>    
+        <div class=" col28">
+                <img src="https://media2.giphy.com/media/md8IyVfwAr8xW/giphy.webp?cid=790b7611361iqqf247n1ev3g9dxbks7etj3ytx1346cvqabo&ep=v1_gifs_search&rid=giphy.webp&ct=g"  >
+                <a href="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGE1YzluYzJjYm1wZGZwNzExNGk3Nng3NzJxZXFtZ2Z1bGw3OHUwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8A2jEyKYXS2IZVBo0d/giphy.gif" class="" download>Download  - <small> 1.3mb(Size)</small>   </a>
+                
+            </div>    
+        <div class=" col28">
+                <img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzYxaXFxZjI0N24xZXYzZzlkeGJrczdldGozeXR4MTM0NmN2cWFibyZlcD12MV9naWZzX3NlYXJjaCZjdD1n/B1CrvUCoMxhy8/100.webp"  >
+                <a href="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGE1YzluYzJjYm1wZGZwNzExNGk3Nng3NzJxZXFtZ2Z1bGw3OHUwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8A2jEyKYXS2IZVBo0d/giphy.gif" class="" download>Download  - <small> 1.3mb(Size)</small>   </a>
+                
+            </div>    
+        <div class=" col28">
+                <img src="https://media0.giphy.com/media/cl27Mh8srUEog5GtUR/200.webp?cid=790b7611bq61rn1xomrurkwsuhwr0a8j69azzvufcb4efi5v&ep=v1_gifs_search&rid=200.webp&ct=g"  >
+                <a href="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGE1YzluYzJjYm1wZGZwNzExNGk3Nng3NzJxZXFtZ2Z1bGw3OHUwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8A2jEyKYXS2IZVBo0d/giphy.gif" class="" download>Download  - <small> 1.3mb(Size)</small>   </a>
+                
+            </div>    
+        <div class=" col28">
+                <img src="https://media1.giphy.com/media/j4jr02YFzFXj4DEmLq/200.webp?cid=790b7611bq61rn1xomrurkwsuhwr0a8j69azzvufcb4efi5v&ep=v1_gifs_search&rid=200.webp&ct=g"  >
+                <a href="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGE1YzluYzJjYm1wZGZwNzExNGk3Nng3NzJxZXFtZ2Z1bGw3OHUwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8A2jEyKYXS2IZVBo0d/giphy.gif" class="" download>Download  - <small> 1.3mb(Size)</small>   </a>
+                
+            </div>    
+        <div class=" col28">
+                <img src="https://media0.giphy.com/media/Qw8VDq8NpRAqIr4QKA/giphy.webp?cid=790b76115sa0r82n7txtd4r89aoz9sjnxnr2fmxcsqrk99tc&ep=v1_gifs_search&rid=giphy.webp&ct=g"  >
+                <a href="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGE1YzluYzJjYm1wZGZwNzExNGk3Nng3NzJxZXFtZ2Z1bGw3OHUwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8A2jEyKYXS2IZVBo0d/giphy.gif" class="" download>Download  - <small> 1.3mb(Size)</small>   </a>
+                
+            </div>    
+        <div class=" col28">
+                <img src="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExNXh2b3B0MDA4bTIxNnVmdzdmanhndGdkcGw1aWF6ZGU4OWM3Mnc3NiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/jrAgdPqTiz2Ew/giphy.gif"  >
+                <a href="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGE1YzluYzJjYm1wZGZwNzExNGk3Nng3NzJxZXFtZ2Z1bGw3OHUwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8A2jEyKYXS2IZVBo0d/giphy.gif" class="" download>Download  - <small> 1.3mb(Size)</small>   </a>
+                
+            </div>    
+        <div class=" col28">
+                <img src="https://media1.giphy.com/media/Mkp6zBx2aNwbCqj9Bl/200.webp?cid=ecf05e47ffwp85nen2ae01kqmxva0naud7u198jvroiazp1c&ep=v1_gifs_search&rid=200.webp&ct=g"  >
+                <a href="https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExOGE1YzluYzJjYm1wZGZwNzExNGk3Nng3NzJxZXFtZ2Z1bGw3OHUwNSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/8A2jEyKYXS2IZVBo0d/giphy.gif" class="" download>Download  - <small> 1.3mb(Size)</small>   </a>
+        
+        </div>
+      </div>
+
+
+
+
+
+    <script src="api.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
+/*for style*/
+*{
+    margin:0;padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #111!important;
+}
+
+.navbar{
+    background-color: #222!important;
+}
+
+.row28{
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.row28 .col28{
+    width: 25%;
+    display: flex; 
+
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+.row28 .col28 img{}
+.row28 .col28 a{
+    background: linear-gradient(to right, rgb(97, 87, 255), rgb(0, 230, 204), rgb(97, 87, 255));
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+    text-align: center;
+    padding: 10px; 
+    display: flex;
+}
+
+
+.btn.btn-success.my-2.my-sm-0{
+    background: linear-gradient(to right, rgb(97, 87, 255), rgb(0, 230, 204), rgb(97, 87, 255))!important;
+}
+
+
+
+.loader{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.loader img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 10%;
+    transform: translate(-50%,-50%);
+}
+
+
+.loader.loaded{
+    display: none;
+} 
+
+/*js*/
+
+searchBTN  = document.querySelector('.search')
+inpTAG  = document.querySelector('.inpSearch')
+row28  = document.querySelector('.row28')
+let loadCOuntImage = 1
+function generateGifHTML(result){ 
+     loadCOuntImage = 1
+    document.querySelector('.row28').innerHTML = ''
+ result.data.forEach(function(onebyone) {
+    loadCOuntImage++
+    html = '';
+    html += `
+    <div class=" col28">
+                <img src="${onebyone.images.original.url}" width='250' height='190'>
+                 <a href="${onebyone.images.original.url}" class="" download>Download  - <small> ${((onebyone.images.original.size/8)/(1024 * 1024)).toFixed(2)}MB (Size)</small>   </a>
+            </div> 
+            `
+   
+    row28.innerHTML += html;
+    if(loadCOuntImage === 12){
+        console.log(loadCOuntImage)
+        hideLoader()
+    }
+});
+
+ allImages = document.querySelectorAll('.row28 img')
+
+      
+}
+
+
+searchBTN.addEventListener('click',function(){
+     url = `http://api.giphy.com/v1/gifs/search?q=${inpTAG.value}&api_key=${YOUR_API_KEY}&limit=12`
+    fetch(url).then(function(response) {
+        return response.json();
+    }).then(function(data) {
+        fetchedData = data;   
+        showLoader()
+        setTimeout(() => {
+            generateGifHTML(fetchedData)  
+        }, 3000);
+      
+        return data;  
+    }).catch(function(error) {
+        // console.log('Error:', error);
+    });
+})
+
+function showLoader(){
+    document.querySelector('.loader').classList.remove('loaded')
+}
+
+function hideLoader(){
+    document.querySelector('.loader').classList.add('loaded')
+}
